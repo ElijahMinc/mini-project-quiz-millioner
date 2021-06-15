@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Quiz</title>
+   <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+   <div class="wrapper d-grid">
+      <aside class="aside d-flex" id="aside">
+         <div class="nav__icon">
+            <a href="#"><i class="fab fa-firstdraft"></i></a>
+         </div>
+         <nav class="nav">
+            <ol class="nav-list" reversed>
+               <li class="nav-list__item">
+                  1000 000$
+               </li>
+               <li class="nav-list__item">
+                  500 000$
+               </li>
+               <li class="nav-list__item">
+                  250 000$
+               </li>
+               <li class="nav-list__item">
+                  125 000$
+               </li>
+               <li class="nav-list__item">
+                  64 000$
+               <li class="nav-list__item">
+                  32 000$
+               </li class="nav-list__item">
+               <li class="nav-list__item">
+                  16 000$
+               </li>
+               <li class="nav-list__item">
+                  8 000$
+               </li>
+               <li class="nav-list__item">
+                  4 000$
+               </li>
+               <li class="nav-list__item">
+                  2 000$
+               </li>
+               <li class="nav-list__item">
+                  1 000$
+               </li>
+               <li class="nav-list__item">
+                  500$
+               </li>
+               <li class="nav-list__item">
+                  300$
+               </li>
+               <li class="nav-list__item">
+                  200$
+               </li>
+               <li class="nav-list__item">
+                  100$
+               </li>
+               </ul>
+         </nav>
+         <div class="aside__login">
+            <a href="#">
+               <i class="fas fa-sign-out-alt"></i>
+            </a>
+         </div>
+      </aside>
+      <main class="page" id="main">
+         <header class="header d-flex" id="header">
+            <div class="header__logo">
+               <img src="img/sidebar.png" alt="sidebar">
+            </div>
+         </header>
+         <div class="page__body" id="pageBody">
+            <div id="pageBtn" class="page-btn"></div>
+            <div class="quiz">
+               <div class="quiz__body" id="windowQuestion"></div>
+            </div>
+         </div>
+         <div class="timer" id="timer"></div>
+         <div id="hints" class="page-hints"></div>
+         <div id="btnPickUp" class="btn-pick-up"></div>
+      </main>
+   </div>
+   <div class="popap" id="popap"></div>
+   <a class="btn-back__item btn-back" href="../index.html">Back</a>
+   <script type="module" src="index.js"></script>
+</body>
+
+</html>
